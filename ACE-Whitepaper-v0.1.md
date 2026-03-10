@@ -154,7 +154,7 @@ consequences across the entire agricultural ecosystem:
 - **Public funding programs**  
   Programs such as climate grants, CAP measures, and regional initiatives struggle to evaluate
   applications fairly, often undervaluing regenerative practices due to methodological gaps.
-- **Farm-evel decision-making**  
+- **Farm level decision-making**  
   Farmers receive inconsistent advice and lack clear, trusted metrics to guide long-term
   regenerative transitions.
 - **Financial sector**  
