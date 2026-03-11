@@ -12,7 +12,7 @@
    - 2.2 Limitations of Existing Tools and Standards  
    - 2.3 Consequences for Policy, Funding, and Practice  
 3. **Proposed Solution: The ACE Framework**  
-   - 3.1 Conceptual Overview  +
+   - 3.1 Conceptual Overview
    - 3.2 Core Principles  
    - 3.3 Scope and Boundaries  
 4. **Architecture and Methodology**  
