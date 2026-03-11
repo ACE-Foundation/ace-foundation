@@ -25,6 +25,12 @@ All certificates are **machine‑readable (`.json`)** and **human‑readable (`.
 
 ## **2. Method Overview**
 
+ACE is a standardized calculation method that quantifies soil carbon dynamics, nitrogen flows, and fossil emissions.
+All input is embedded directly in each certificate and protected with SHA‑256 hashes, ensuring tamper‑proof reproducibility.
+
+The method uses domain profiles and soil parameters to calculate carbon pool changes and net CO₂e.
+The same method is applied consistently to both baseline and regenerative scenarios.
+
 ACE certificates include:
 
 - full input data  
