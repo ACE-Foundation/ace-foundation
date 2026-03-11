@@ -1,0 +1,111 @@
+{
+  "certificate_id": "ACE-CERT-2021-09049ae0",
+  "timestamp": "2026-03-07T07:48:24Z",
+  "soil_params": {
+    "soil": "Clay",
+    "humus": "6",
+    "density": "1.35",
+    "z_ref": "0.25",
+    "cn_humus": "10"
+  },
+  "domain_profile": {
+    "Soil Disturbance": "Low disturbance",
+    "Pesticides": "Low biological impact",
+    "Biomass Flows": "Grain only",
+    "Biodiversification": "High biological complexity",
+    "Fertilizers": "Biological/organic fertilizer strategy",
+    "Production System": "Organic",
+    "Hydrology": "Partial hydrological control"
+  },
+  "metrics": {
+    "GOeff": 0.8392857142857146,
+    "MINeff": 0.9321428571428569,
+    "EKeff": 0.8154761904761906,
+    "CO2e_total": -715.9976035258238,
+    "biochar": 0.0
+  },
+  "co2e_data": {
+    "n_losses": 13.991996344296615,
+    "co2e_n2o": 38.198150019929756,
+    "pools": {
+      "B1": {
+        "N_change": 12.099403698979586,
+        "CO2e_storage": -443.6448063290527
+      },
+      "B2": {
+        "N_change": 1.028571428571425,
+        "CO2e_storage": -150.8571442285709
+      },
+      "B3": {
+        "N_change": 3.6000000000000014,
+        "CO2e_storage": -264.0000024000001
+      }
+    },
+    "fossil": 104.30619941187015,
+    "biochar": -0.0,
+    "net": -715.9976035258238
+  },
+  "metadata": {
+    "ace_cust_id": "ACE-CUST-00000001",
+    "year": "2021",
+    "scenario": "regenerative, no till, ecological",
+    "ace_version": "1.0.0"
+  },
+  "input": {
+    "id": "ACE-CUST-00000001",
+    "year": "2021",
+    "cost": "2908",
+    "currency": "SEK",
+    "biochar": "0",
+    "method": "ECB",
+    "land_use": "agricultural",
+    "area_ha": "1",
+    "Soil": "Clay",
+    "TS_grain_prev": "5000",
+    "TS_FG_prev": "2000",
+    "TS_grain": "5000",
+    "TS_FG": "2200",
+    "Measured_N_prev": "20",
+    "Measured_N": "20",
+    "Fertilized_N": "22",
+    "Soil_Disturbance": "3",
+    "Biomass_Flows": "2",
+    "Pesticides": "3",
+    "Biodiversification": "3",
+    "Fertilizers": "3",
+    "Production_System": "2",
+    "Hydrology": "2",
+    "m3sk_inc": "3",
+    "TS_perennial": "2000"
+  },
+  "hashes": {
+    "input": "sha256:388986856b5683740ed6dceedaded70ab313fb8b87dbbbc9324ec54f09049ae0",
+    "scenario": "sha256:72e53e6447d103eaf9337216852dc0a506522dc3ea0e9331169390d0b7857164",
+    "calculation": "sha256:4b3be37df1b966033e44d248eee01d9a6e25238dba4580899513601e1522cd41",
+    "method": "sha256:01c7544a17be0b362cf658525015098518fe6f3aafae0eb0591f955e7adf0498"
+  },
+  "IS": {
+    "Measured_N_prev": 20.0,
+    "Measured_N": 20.0,
+    "Fertilized_N": 22.0,
+    "Deposition": 9.0,
+    "N_fix": 80.0,
+    "Biomass_uptake": 184.14642857142857,
+    "N_losses": 13.991996344296615,
+    "SE": -0.07711432899050408
+  },
+  "pools": {
+    "B1_prev": 2936.2499999999995,
+    "B2_prev": 63.16071428571429,
+    "B3_prev": 36.0,
+    "opening": 3035.4107142857138
+  },
+  "closing": {
+    "B1": 2948.349403698979,
+    "B2": 64.18928571428572,
+    "B3": 39.6,
+    "closing": 3052.1386894132647,
+    "change": 16.727975127550962
+  },
+  "mineralisering": 87.06131058673468
+}
