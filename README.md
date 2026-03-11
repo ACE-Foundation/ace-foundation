@@ -48,10 +48,10 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 - [ACE-Global-Pool-Architecture.md](ACE-Global-Pool-Architecture.md)
 - [ACE-Futures-Contract-Standard.md](ACE-Futures-Contract-Standard.md)
 
-### Research (coming soon, WIP)
+### Research
 #### 01 – Klimatklivet
 - [analysis.md](research/use-cases/01-Klimatklivet/analysis.md)
-
+- (coming soon, WIP)
 
 ---
 
