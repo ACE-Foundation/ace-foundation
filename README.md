@@ -49,16 +49,9 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 - [ACE-Futures-Contract-Standard.md](ACE-Futures-Contract-Standard.md)
 
 ### Research (coming soon, WIP)
-# 01 – Klimatklivet
+#### 01 – Klimatklivet
 - [analysis.md](research/use-cases/01-Klimatklivet/analysis.md)
-# Baseline Scenario
-- [ACE-CERT-2021-a43c58c5.html](research/use-cases/01-Klimatklivet/baseline/ACE-CERT-2021-a43c58c5.html)
-- [ACE-CERT-2021-a43c58c5.json](baseline/ACE-CERT-2021-a43c58c5.json)
-- [README.md](baseline/README.md)
-# Regenerative Scenario
-- [ACE-CERT-2021-09049ae0.html](regenerative/ACE-CERT-2021-09049ae0.html)
-- [ACE-CERT-2021-09049ae0.json](regenerative/ACE-CERT-2021-09049ae0.json)
-- [README.md](regenerative/README.md)
+
 
 ---
 
