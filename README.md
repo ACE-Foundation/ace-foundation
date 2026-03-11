@@ -50,9 +50,9 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 
 ### Research (coming soon, WIP)
 # 01 – Klimatklivet
-- [analysis.md](analysis.md)
+- [analysis.md](research/use-cases/01-Klimatklivet/analysis.md)
 # Baseline Scenario
-- [ACE-CERT-2021-a43c58c5.html](baseline/ACE-CERT-2021-a43c58c5.html)
+- [ACE-CERT-2021-a43c58c5.html](research/use-cases/01-Klimatklivet/baseline/ACE-CERT-2021-a43c58c5.html)
 - [ACE-CERT-2021-a43c58c5.json](baseline/ACE-CERT-2021-a43c58c5.json)
 - [README.md](baseline/README.md)
 # Regenerative Scenario
