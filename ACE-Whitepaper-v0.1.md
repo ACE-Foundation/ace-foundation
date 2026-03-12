@@ -871,7 +871,7 @@ The standardized output format for ACE climate assessments, including uncertaint
 verification notes.
 
 **System Effects (EKeff)**  
-A composite metric capturing biological complexity, disturbance reduction, fossil energy demand, and
+A composite economic metric capturing biological complexity, disturbance reduction, fossil energy demand, and
 nitrogen efficiency.
 
 **Disturbance Profile**  
