@@ -870,7 +870,7 @@ A specification describing how data must be structured, labeled, and versioned.
 The standardized output format for ACE climate assessments, including uncertainty intervals and
 verification notes.
 
-**System Effects (EKeff)**  
+**Economic Efficiency (EKeff)**  
 A composite economic metric capturing biological complexity, disturbance reduction, fossil energy demand, and
 nitrogen efficiency.
 
