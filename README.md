@@ -32,11 +32,11 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 
 ### Methodology
 - [ACE-METH-001 (v1.0)](methodology/ACE-METH-001/1.0/ACE-METH-001.md)
-  - [Appendix A](methodology/ACE-METH-001/1.0/appendix_A.md), (coming soon, WIP)
-  - [Appendix B](methodology/ACE-METH-001/1.0/appendix_B.md)
-  - [Appendix C](methodology/ACE-METH-001/1.0/appendix_C.md)
-  - [Appendix D](methodology/ACE-METH-001/1.0/appendix_D.md)
-  - [Appendix E](methodology/ACE-METH-001/1.0/appendix_E.md)
+  - [Appendix A](methodology/ACE-METH-001/1.0/appendix_A.md) (coming soon, WIP)
+  - [Appendix B](methodology/ACE-METH-001/1.0/appendix_B.md) (coming soon, WIP)
+  - [Appendix C](methodology/ACE-METH-001/1.0/appendix_C.md) (coming soon, WIP)
+  - [Appendix D](methodology/ACE-METH-001/1.0/appendix_D.md) (coming soon, WIP)
+  - [Appendix E](methodology/ACE-METH-001/1.0/appendix_E.md) (coming soon, WIP)
 
 ### Additional Standards (coming soon, WIP)
 - [ACE-Certificate-Schema.md](ACE-Certificate-Schema.md)
