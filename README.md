@@ -30,9 +30,9 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 - [1. ACE-Ontology.md](ACE-Ontology.md)
 - [2. ACE-Metadata-Standard.md](ACE-Metadata-Standard.md)
 
-### Methodology (coming soon, WIP)
+### Methodology
 - [ACE-METH-001 (v1.0)](methodology/ACE-METH-001/1.0/ACE-METH-001.md)
-  - [Appendix A](methodology/ACE-METH-001/1.0/appendix_A.md)
+  - [Appendix A](methodology/ACE-METH-001/1.0/appendix_A.md), (coming soon, WIP)
   - [Appendix B](methodology/ACE-METH-001/1.0/appendix_B.md)
   - [Appendix C](methodology/ACE-METH-001/1.0/appendix_C.md)
   - [Appendix D](methodology/ACE-METH-001/1.0/appendix_D.md)
