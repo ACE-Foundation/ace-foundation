@@ -1,4 +1,4 @@
-# **Comparative Analysis of Climate Policy Evaluation Models:  
+# Comparative Analysis of Climate Policy Evaluation Models:  
 Klimatpolitiska Rådets Analytical Framework vs. the Adaptive Carbon Engine (ACE)**  
 ### *A Research Report*  
 ### Version 1.0 — March 2026  
