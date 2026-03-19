@@ -51,6 +51,7 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 ### Research
 #### 01 – Klimatklivet
 - [analysis.md](research/use-cases/01-Klimatklivet/analysis.md)
+- [Comparative Analysis of Climate Policy Evaluation Models.md](research/use-cases/02-Comparative Analysis of Climate Policy Evaluation Models.md)
 - (coming soon, WIP)
 
 ---
