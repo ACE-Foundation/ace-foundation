@@ -122,7 +122,7 @@ Nothing inside it may contradict it.
 
 ---
 
-# **8.1 GOBMTEC – Substrate and Capital Classes (Transferred from Originator)**
+## **8.1 GOBMTEC – Substrate and Capital Classes (Transferred from Originator)**
 
 GOBMTEC defines the constitutional substrate and capital classes:
 
@@ -139,7 +139,7 @@ It is immutable and forms the constitutional ontology of ACE.
 
 ---
 
-# **8.2 H‑Class – Institutional Handling Layer (Retained by Originator)**
+## **8.2 H‑Class – Institutional Handling Layer (Retained by Originator)**
 
 H‑Class is the **institutional and operational layer** of ACE.  
 It is part of the ontology but **its implementation is proprietary** and remains under the exclusive ownership of the originator unless explicitly licensed.
@@ -160,7 +160,7 @@ H‑Class is **never transferred** to ACE Foundation.
 
 ---
 
-# **8.3 Ownership / Permissions Layer**
+## **8.3 Ownership / Permissions Layer**
 
 ```
 Identity → Account → Balances
@@ -183,7 +183,7 @@ Identity → Account → Balances
 
 ---
 
-# **8.4 Event / Ledger Layer**
+## **8.4 Event / Ledger Layer**
 
 ```
 MRV → Transaction → Clearing → Settlement → Ledger
@@ -194,7 +194,7 @@ This layer defines the operational logic of ACE Tech.
 
 ---
 
-# **8.5 MRV Domain = f(Measurement, Reporting, Verification)**
+## **8.5 MRV Domain = f(Measurement, Reporting, Verification)**
 
 The MRV domain produces verified evidence:
 
@@ -208,7 +208,7 @@ MRV is the **evidence domain** feeding CREATION.
 
 ---
 
-# **8.6 Transaction Domain = f(MRV, GOBMTEC)**
+## **8.6 Transaction Domain = f(MRV, GOBMTEC)**
 
 ### **1. CREATION**  
 - Generates a Signed Created Certificate  
@@ -228,7 +228,7 @@ MRV is the **evidence domain** feeding CREATION.
 
 ---
 
-# **8.7 Clearing Domain = f(Transaction)**
+## **8.7 Clearing Domain = f(Transaction)**
 
 ### **Validation**  
 - Ownership  
@@ -246,7 +246,7 @@ MRV is the **evidence domain** feeding CREATION.
 
 ---
 
-# **8.8 Settlement Domain = f(Cleared Transaction)**
+## **8.8 Settlement Domain = f(Cleared Transaction)**
 
 ### **Execution**  
 - Debit seller  
@@ -260,7 +260,7 @@ MRV is the **evidence domain** feeding CREATION.
 
 ---
 
-# **8.9 Ledger Domain – Append‑Only Event Log**
+## **8.9 Ledger Domain – Append‑Only Event Log**
 
 The ledger is:
 
