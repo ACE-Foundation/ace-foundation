@@ -55,7 +55,48 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 - (coming soon, WIP)
 
 ---
+## Ledger and Event Domains
 
+ACE defines the following institutional domains:
+
+- **MRV Domain** — verified evidence (measurements, reports, signatures, hashed proofs)  
+- **Transaction Domain** — creation, transfer, and redemption of certificates  
+- **Clearing Domain** — validation, matching, and locking of positions  
+- **Settlement Domain** — irreversible execution of cleared transactions  
+- **Ledger Domain** — append‑only event log forming the institutional truth  
+
+The ledger is:
+
+- **append‑only**  
+- **immutable**  
+- **deterministic**  
+- **the single source of institutional truth**
+
+Balances are **never stored**.  
+They are deterministically derived from ledger events.  
+This ensures perfect auditability, institutional consistency, and constitutional integrity.
+
+---
+
+## Status of This Repository
+
+This repository contains:
+
+- **the ACE Ontology (immutable)**  
+- **constitutional documents**  
+- **governance structure**  
+- **public reference materials**
+
+This repository does **not** contain:
+
+- H‑Class implementation  
+- ACE Engine code  
+- operational modules  
+- any executable logic  
+
+These remain **proprietary** and may only be used under explicit license from the originator.
+
+---
 ## Implementation Neutrality
 
 ACE defines structure, not code.  
@@ -101,15 +142,42 @@ Whitepapers and supporting documents include version identifiers in their filena
 
 ---
 
+## Intellectual Property & Ontological Protection
+
+The ACE Ontology is protected as original authored work under international copyright law.
+
+GitHub publication provides:
+
+- cryptographic timestamp  
+- immutable revision history  
+- global transparency  
+- legally recognized proof of priority  
+- establishment of prior art  
+
+The ontology is:
+
+- free to read  
+- free to reference  
+- **not free to alter**  
+- **not free to fork into derivative ontologies**  
+- **not free to implement without licensed H‑Class**
+
+The ontology is public and immutable.  
+The implementation (H‑Class) is private and licensable.
+
+For full details, see:  
+**`/docs/ACE_IP_Statement.md`**
+
+---
+
 ## License
 
 No open-source license is applied.  
 All rights are reserved by the originator unless explicitly stated otherwise.
 
 ---
+**ACE Foundation**
 
-## Contributions
-
-External contributions are not accepted at this stage.  
-Feedback may be submitted via issues for review by the custodian.
+Custodian of the ACE Ontology
+info@acefoundation.net
 
