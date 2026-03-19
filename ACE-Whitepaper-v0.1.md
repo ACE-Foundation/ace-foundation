@@ -1,6 +1,6 @@
 # ACE Whitepaper  
 ## Adaptive Carbon Engine / Agricultural Carbon Efficiency  
-### Version 0.1 (Draft)
+### Version 0.2 (Draft)
 
 ---
 
@@ -15,32 +15,35 @@
    - 3.1 Conceptual Overview
    - 3.2 Core Principles  
    - 3.3 Scope and Boundaries  
-4. **Architecture and Methodology**  
-   - 4.1 System Architecture  
-   - 4.2 Data Model and Metadata Requirements  
-   - 4.3 Soil Carbon Methodology  
-   - 4.4 Nitrogen Efficiency and Emissions  
-   - 4.5 Fossil CO2e and System Effects  
-   - 4.6 Certificate Logic and Verification  
-5. **Use Cases**  
+4. **Architecture and Methodology**
+   - 4.1 Constitutional Ontology Layer (GOMBTECH)
+   - 4.2 Ownership / Permissions Layer (H‑Class)
+   - 4.3 Event / Ledger Layer (H‑Class)
+   - 4.4 System Architecture  
+   - 4.5 Data Model and Metadata Requirements  
+   - 4.6 Soil Carbon Methodology  
+   - 4.7 Nitrogen Efficiency and Emissions  
+   - 4.8 Fossil CO2e and System Effects  
+   - 4.9 Certificate Logic and Verification  
+6. **Use Cases**  
    - 5.1 Public Funding Programs  
    - 5.2 Advisory Services  
    - 5.3 Financial Sector and Risk Assessment  
    - 5.4 Certification and Supply Chains  
-6. **Benefits and Impact**  
+7. **Benefits and Impact**  
    - 6.1 Climate Impact  
    - 6.2 Economic and Operational Benefits  
    - 6.3 Institutional and Policy Impact  
-7. **Implementation Roadmap**  
+8. **Implementation Roadmap**  
    - 7.1 Versioning Strategy  
    - 7.2 Pilot Phases  
    - 7.3 Integration with ACE-UI  
-8. **Governance Model**  
+9. **Governance Model**  
    - 8.1 Roles and Responsibilities  
    - 8.2 Update and Review Process  
    - 8.3 Transparency and Open Standards  
-9. **Conclusion**  
-10. **Appendix**  
+10. **Conclusion**  
+11. **Appendix**  
     - A. Definitions and Glossary  
     - B. Methodological References  
     - C. Links to Protocol Modules  
@@ -278,6 +281,52 @@ institutionally robust climate evaluation across farms, tools, and public progra
 
 ---
 
+# **3.4 Ontological Foundation: GOMBTECH**
+
+To ensure long‑term stability, scientific neutrality, and institutional coherence, ACE is grounded in a constitutional ontology known as **GOMBTECH**.  
+GOMBTECH defines the complete universe in which ACE operates:
+
+- **GOBMTEC** — the substrate and capital classes  
+- **H‑Class** — the institutional handling and securitization of the C‑Class  
+
+GOMBTECH is the total ontological space of ACE.  
+Nothing exists outside it, and nothing inside it may contradict it.
+
+### **GOBMTEC — Substrate and Capital Classes**
+
+GOBMTEC defines the seven immutable classes:
+
+**G, O, B, M, T, E, C**
+
+These classes describe the fundamental structure of ecological and institutional reality.  
+They are **transferred from the originator** to ACE Foundation for permanent custodianship.
+
+### **H‑Class — Institutional Handling Layer**
+
+H‑Class defines how the C‑Class is represented, securitized, and transacted.  
+It includes:
+
+- identity  
+- accounts  
+- balances  
+- transactions  
+- clearing  
+- settlement  
+- ledger  
+- MRV integration  
+- ACE Engine execution  
+
+H‑Class is **retained by the originator**.  
+Its implementation is proprietary and not part of the public methodology.
+
+This separation ensures:
+
+- constitutional permanence (GOBMTEC)  
+- operational sovereignty (H‑Class)  
+- institutional neutrality (ACE Foundation)  
+
+---
+
 ## 4. Architecture and Methodology
 The ACE Framework is built as a modular, transparent, and implementation-agnostic protocol designed
 to standardize agricultural climate assessment. Its architecture separates conceptual layers,
@@ -288,7 +337,145 @@ This section provides an overview of the system architecture, the methodological
 ACE-METH-001, and the core components that enable consistent and comparable climate evaluations
 across farms, tools, and institutions.
 
-### 4.1 System Architecture
+The ACE architecture is expanded to include the **constitutional ontology** and the **institutional handling layer**.  
+The updated architecture consists of:
+
+1. **Constitutional Ontology Layer (GOMBTECH)**  
+2. **Ownership / Permissions Layer (H‑Class)**  
+3. **Event / Ledger Layer (H‑Class)**  
+4. **Metadata & Data Model Layer**  
+5. **Methodology Layer (ACE‑METH‑001)**  
+6. **Certificate & Verification Layer**
+
+This structure ensures that ACE remains scientifically grounded, institutionally robust, and implementation‑agnostic.
+
+---
+
+# **4.1 Constitutional Ontology Layer (GOMBTECH)**
+
+GOMBTECH defines the immutable conceptual universe of ACE.
+
+### **GOBMTEC — Substrate and Capital Classes**
+
+- **G** — Geological substrate  
+- **O** — Organic substrate  
+- **B** — Biological capital  
+- **M** — Mineral N capital  
+- **T** — Technical capital  
+- **E** — Economic/governance capital  
+- **C** — Climate representation class  
+
+These classes form the **constitutional ontology** and cannot be altered by any implementation, update, or scientific revision.
+
+### **H‑Class — Institutional Handling Layer**
+
+H‑Class defines how the C‑Class is represented and transacted.  
+It is part of the ontology but **its implementation is proprietary**.
+
+H‑Class includes:
+
+- identity  
+- accounts  
+- balances  
+- transactions  
+- clearing  
+- settlement  
+- ledger  
+- MRV integration  
+- ACE Engine execution  
+
+---
+
+# **4.2 Ownership / Permissions Layer (H‑Class)**
+
+This layer defines institutional truth:  
+**who exists, who owns what, and how balances are derived.**
+
+```
+Identity → Account → Balances
+```
+
+### **Identity Domain = f(Ledger)**  
+Identities arise when the ledger records an entity for the first time.  
+They cannot be deleted — only updated through new events.
+
+### **Account Domain = f(Ledger)**  
+Accounts are projections of ledger history.  
+They exist only if referenced by ledger events.
+
+### **Balances Domain = f(Ledger Events)**  
+Balances are never stored.  
+They are deterministically derived from ledger events, ensuring perfect auditability.
+
+---
+
+# **4.3 Event / Ledger Layer (H‑Class)**
+
+This layer defines the operational logic of ACE Tech:
+
+```
+MRV → Transaction → Clearing → Settlement → Ledger
+Balances = f(Ledger events)
+```
+
+### **MRV Domain = f(Measurement, Reporting, Verification)**  
+Produces verified evidence:
+
+- measurements  
+- reports  
+- signatures  
+- hashed proofs  
+- references (IPFS, filesystem, database)
+
+MRV is the **evidence domain** feeding CREATION.
+
+### **Transaction Domain = f(MRV, GOBMTEC)**
+
+#### **1. CREATION**  
+- Signed Created Certificate  
+- Negative emissions  
+- Based on MRV + ACE Engine  
+
+#### **2. TRADING**  
+- Transfer → Clearing → Settlement → Ledger  
+- Unlimited buying  
+- Selling restricted to owned certificates  
+
+#### **3. REDEMPTION**  
+- Signed Certificate Retirement  
+- Positive emissions + purchased certificates  
+- Certificate becomes permanently consumed  
+
+### **Clearing Domain = f(Transaction)**  
+- validation  
+- matching  
+- preparation (cleared transaction)  
+
+### **Settlement Domain = f(Cleared Transaction)**  
+- debit/credit  
+- ledger update  
+- irreversibility (append‑only)  
+
+### **Ledger Domain — Append‑Only Event Log**  
+The ledger is:
+
+- immutable  
+- append‑only  
+- deterministic  
+- the institutional truth  
+
+It contains all:
+
+- transactions  
+- clearing results  
+- settlement events  
+- identity events  
+- account events  
+- creation and redemption events  
+
+---
+
+### 4.4 System Architecture
 ACE is structured into four primary layers, each serving a distinct purpose:
 
 #### **1. Ontology Layer**
@@ -330,7 +517,7 @@ This layer ensures that ACE outputs are trustworthy and comparable across instit
 Together, these layers form a coherent architecture that separates *what* must be calculated from
 *how* tools implement the calculations.
 
-### 4.2 Data Model and Metadata Requirements
+### 4.5 Data Model and Metadata Requirements
 ACE requires a structured and transparent data model to ensure consistency across tools and
 assessments. Key components include:
 
@@ -367,7 +554,7 @@ assessments. Key components include:
 - multi-year transitions  
 All metadata is versioned and must include provenance to support verification and auditability.
 
-### 4.3 Soil Carbon Methodology
+### 4.6 Soil Carbon Methodology
 ACE-METH-001 models soil carbon using a dynamic, disturbance-sensitive approach that captures both
 short-term and long-term effects of management decisions.
 
@@ -397,7 +584,7 @@ Carbon is allocated into pools with different turnover times:
 - slow (mineral-associated)  
 This enables realistic long-term projections.
 
-### 4.4 Nitrogen Efficiency and Emissions
+### 4.7 Nitrogen Efficiency and Emissions
 ACE models nitrogen cycling with explicit attention to:
 
 #### **Mineralization and immobilization**
@@ -415,7 +602,7 @@ Risk factors include:
 - disturbance level  
 ACE provides a unified approach to estimating N2O emissions under different management regimes.
 
-### 4.5 Fossil CO2e and System Effects
+### 4.8 Fossil CO2e and System Effects
 ACE incorporates fossil emissions from:
 - machinery operations  
 - fuel type (diesel, HVO, electricity)  
@@ -429,7 +616,7 @@ But ACE goes further by modeling **system effects**, including:
 - reduced need for heavy machinery  
 These effects are aggregated into the **EKeff** metric, a unified measure of system performance.
 
-### 4.6 Certificate Logic and Verification
+### 4.9 Certificate Logic and Verification
 ACE certificates provide a standardized, auditable output format that includes:
 - methodology version  
 - metadata summary  
