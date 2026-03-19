@@ -107,3 +107,176 @@ originator unless licensed or transferred.
 The constitutional purpose of ACE is to preserve the permanence and integrity of the 
 ontology and protocol. This purpose is itself permanent and cannot be amended by any
 implementing or licensing entity.
+
+---
+
+# **8. GOMBTECH – The Complete Universe Layer**
+
+GOMBTECH defines the full universe of ACE:  
+- **GOBMTEC** as the substrate and capital classes  
+- **H‑Class** as the securitization and institutional handling of the C‑Class  
+
+GOMBTECH is the total ontological space in which ACE operates.  
+Nothing exists outside it.  
+Nothing inside it may contradict it.
+
+---
+
+# **8.1 GOBMTEC – Substrate and Capital Classes (Transferred from Originator)**
+
+GOBMTEC defines the constitutional substrate and capital classes:
+
+- **G** – Geological substrate  
+- **O** – Organic substrate (non‑nitrogen)  
+- **B** – Biological capital  
+- **M** – Mineral N capital  
+- **T** – Technical capital  
+- **E** – Economic/governance capital  
+- **C** – Climate representation class  
+
+GOBMTEC is **transferred from the originator** to the ACE Foundation for permanent custodianship.  
+It is immutable and forms the constitutional ontology of ACE.
+
+---
+
+# **8.2 H‑Class – Institutional Handling Layer (Retained by Originator)**
+
+H‑Class is the **institutional and operational layer** of ACE.  
+It is part of the ontology but **its implementation is proprietary** and remains under the exclusive ownership of the originator unless explicitly licensed.
+
+H‑Class performs the **securitization and institutional representation of the C‑Class**, including:
+
+- identity  
+- accounts  
+- balances  
+- transactions  
+- clearing  
+- settlement  
+- ledger  
+- MRV integration  
+- ACE Engine execution  
+
+H‑Class is **never transferred** to ACE Foundation.
+
+---
+
+# **8.3 Ownership / Permissions Layer**
+
+```
+Identity → Account → Balances
+```
+
+### **Identity Domain = f(Ledger)**  
+- Identities arise when the ledger records an entity for the first time.  
+- Identity is an institutional truth derived from ledger events.  
+- Identities cannot be deleted, only updated through new events.
+
+### **Account Domain = f(Ledger)**  
+- Accounts are projections of ledger history.  
+- An account exists only if referenced by ledger events.  
+- Accounts are not tables; they are functions of events.
+
+### **Balances Domain = f(Ledger Events)**  
+- Balances are never stored.  
+- They are deterministically derived from ledger events.  
+- This ensures perfect auditability and institutional consistency.
+
+---
+
+# **8.4 Event / Ledger Layer**
+
+```
+MRV → Transaction → Clearing → Settlement → Ledger
+Balances = f(Ledger events)
+```
+
+This layer defines the operational logic of ACE Tech.
+
+---
+
+# **8.5 MRV Domain = f(Measurement, Reporting, Verification)**
+
+The MRV domain produces verified evidence:
+
+- measurements  
+- reports  
+- signatures  
+- hashed proofs  
+- references (IPFS, filesystem, database)  
+
+MRV is the **evidence domain** feeding CREATION.
+
+---
+
+# **8.6 Transaction Domain = f(MRV, GOBMTEC)**
+
+### **1. CREATION**  
+- Generates a Signed Created Certificate  
+- Represents negative emissions (typically annual)  
+- Must be based on MRV + ACE Engine logic
+
+### **2. TRADING**  
+- Transfer → Clearing → Settlement → Ledger  
+- Unlimited buying  
+- Selling restricted to owned certificates  
+- Pure ledger logic
+
+### **3. REDEMPTION**  
+- Signed Certificate Retirement  
+- Represents positive emissions + purchased certificates  
+- Certificate becomes permanently consumed
+
+---
+
+# **8.7 Clearing Domain = f(Transaction)**
+
+### **Validation**  
+- Ownership  
+- Identity validity  
+- Account existence  
+- Certificate availability  
+- Signature correctness  
+
+### **Matching**  
+- Bilateral or algorithmic
+
+### **Preparation**  
+- Creates a cleared transaction  
+- Locks relevant positions until settlement
+
+---
+
+# **8.8 Settlement Domain = f(Cleared Transaction)**
+
+### **Execution**  
+- Debit seller  
+- Credit buyer  
+- Update ledger  
+
+### **Irreversibility**  
+- Append‑only  
+- Permanent  
+- Ledger becomes the institutional truth
+
+---
+
+# **8.9 Ledger Domain – Append‑Only Event Log**
+
+The ledger is:
+
+- immutable  
+- append‑only  
+- deterministic  
+- the institutional truth  
+- the source of all derived domains  
+
+The ledger contains:
+
+- all transactions  
+- all clearing results  
+- all settlement events  
+- all identity events  
+- all account events  
+- all creation and redemption events  
+
+---
