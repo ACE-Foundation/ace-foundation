@@ -29,6 +29,7 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 - [0. ACE-Whitepaper-v0.1.md](ACE-Whitepaper-v0.1.md)
 - [1. ACE-Ontology.md](ACE-Ontology.md)
 - [2. ACE-Metadata-Standard.md](ACE-Metadata-Standard.md)
+- [3. ACE_Market_Model.md](ACE_Market_Model.md)
 
 ### Methodology
 - [ACE-METH-001 (v1.0)](methodology/ACE-METH-001/1.0/ACE-METH-001.md)
