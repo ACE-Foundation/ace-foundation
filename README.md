@@ -160,7 +160,7 @@ The ontology is public and immutable.
 The implementation (H‑Class) is private and licensable.
 
 For full details, see:  
-(ACE_IP_Statement.md)
+[ACE_IP_Statement.md](ACE_IP_Statement.md)
 
 ---
 
