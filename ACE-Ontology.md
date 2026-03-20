@@ -280,3 +280,12 @@ The ledger contains:
 - all creation and redemption events  
 
 ---
+
+## **8.10 ACE Market Model – Public Handling Specification**
+The ACE Market Model describes the public, open, institutional mechanics of the H‑Class.
+It defines how ACE‑MRV, ACE‑Registration, ACE Climate Rating, ACE‑CERT, invoice‑anchored deduction, CRCF integration, and year‑to‑year grade propagation operate within the ACE system.
+
+The Market Model is part of the H‑Class ontology, but not part of the proprietary implementation.
+It is published openly to ensure transparency, auditability, and regulatory compatibility.
+
+(**LINK**)
