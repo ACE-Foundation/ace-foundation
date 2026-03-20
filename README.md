@@ -39,15 +39,8 @@ This repository does **not** contain code, algorithms, or proprietary logic.
   - [Appendix D](methodology/ACE-METH-001/1.0/appendix_D.md) (coming soon, WIP)
   - [Appendix E](methodology/ACE-METH-001/1.0/appendix_E.md) (coming soon, WIP)
 
-### Additional Standards (coming soon, WIP)
-- [ACE-Certificate-Schema.md](ACE-Certificate-Schema.md)
-- [ACE-Verification-Notes.md](ACE-Verification-Notes.md)
-- [ACE-Roles.md](ACE-Roles.md)
-- [ACE-Settlement-Model.md](ACE-Settlement-Model.md)
-- [ACE-Ledger-Specification.md](ACE-Ledger-Specification.md)
-- [ACE-Fungibility-Classes.md](ACE-Fungibility-Classes.md)
-- [ACE-Global-Pool-Architecture.md](ACE-Global-Pool-Architecture.md)
-- [ACE-Futures-Contract-Standard.md](ACE-Futures-Contract-Standard.md)
+### Additional Standards
+- [ACE-Certificate-Schema.md](ACE-Certificate-Schema.md) (coming soon, WIP)
 
 ### Research
 #### 01 – Klimatklivet
