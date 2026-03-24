@@ -141,55 +141,93 @@ ACE only stores:
 
 ---
 
-## **7. Year‑to‑Year Logic**
+# 7. Year‑to‑Year Logic — How Grades Change
 
-### **Year N — ACE‑Registration**
-1. Organisation A submits ACE‑MRV  
-2. ACE timestamps + hashes the data  
-3. ACE‑engine calculates the climate outcome  
-4. Organisation A receives ACE‑grade (A–E)  
-5. If A is net‑negative → A+ → receives ACE‑CERT  
-
-ACE does **not** verify MRV.  
-Auditors do.
+The ACE system recalculates every organisation’s grade once per year.  
+Next year’s grade is determined entirely by **auditor‑verified behaviour during the year**.  
+ACE remains neutral: auditors verify, ACE records and calculates.
 
 ---
 
-### **During Year N+1 — Market Activity**
+## 7.1 Year N — Registration and Baseline
 
-#### **1. Organisation A sells to Organisation B**
-- Invoice includes A’s ACE‑grade  
-- Auditor at B checks the grade in the ACE ledger  
-- Auditor applies the A–E → 100–0% deduction  
+1. The organisation submits ACE‑MRV  
+2. ACE timestamps and hashes the data  
+3. ACE‑engine calculates the climate outcome  
+4. The organisation receives an ACE‑grade (A–E)  
+5. If net‑negative → A+ → receives ACE‑CERT  
 
-#### **2. Organisation B may buy ACE‑CERT**
-- If B is ACE‑Registered  
-- Purchases are logged in the ledger  
-- They affect **next year’s** grade  
+ACE does **not** verify MRV.  
+Verification is performed by auditors.
 
-#### **3. ACE does not intervene**
-ACE does not:
+This grade becomes the **starting point** for the next year.
+
+---
+
+## 7.2 Year N+1 — Behaviour That Influences Next Year’s Grade
+
+During Year N+1, three types of behaviour affect the organisation’s grade for Year N+2.
+
+### 1. Buying goods and services (invoice‑anchored deductions)
+
+Every invoice carries the seller’s ACE‑grade.  
+The buyer’s auditor applies the deduction:
+
+| Seller grade | Deduction for buyer |
+|--------------|---------------------|
+| **A** | 100% |
+| **B** | 75% |
+| **C** | 50% |
+| **D** | 25% |
+| **E** | 0% |
+
+**Effect:**  
+Buying from **high‑grade suppliers** reduces the buyer’s net emissions and therefore **improves next year’s grade**.
+
+---
+
+### 2. Buying and retiring ACE‑CERT
+
+If the organisation is ACE‑Registered:
+
+- it may buy ACE‑CERT at any time  
+- purchases are logged in the ledger  
+- ACE‑CERT must be **retired** to count  
+- retired ACE‑CERT reduces next year’s net emissions  
+
+**Effect:**  
+Retiring ACE‑CERT **improves next year’s grade**.
+
+---
+
+### 3. CRCF‑aligned biogenic inputs (if applicable)
+
+For land‑use sectors, CRCF‑aligned biogenic inputs may reduce net emissions.
+
+**Effect:**  
+Verified biogenic inputs **improve next year’s grade**.
+
+---
+
+### ACE remains neutral
+
+ACE does **not**:
 
 - check invoices  
 - check deductions  
 - check MRV correctness  
 - check bookkeeping  
+- influence behaviour  
 
-ACE only records.
+ACE only records and calculates.
 
 ---
 
-### **End of Year N+1 — New ACE‑Registration**
+## 7.3 End of Year N+1 — New Grade Calculation
 
-ACE‑engine recalculates B’s grade using:
+ACE‑engine calculates the organisation’s new grade using:
 
-1. **B’s MRV** (auditor‑verified)  
-2. **invoice‑anchored deductions** (100–0%)  
-3. **ACE‑CERT purchased**  
-4. **CRCF‑aligned biogenic inputs** (if relevant)
-
-ACE outputs a **new ACE‑grade (A–E)**.
-
+1. **Its own MRV** (auditor‑verified
 ---
 
 ## **8. Market Dynamics**
