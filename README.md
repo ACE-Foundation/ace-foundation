@@ -41,7 +41,20 @@ This repository does **not** contain code, algorithms, or proprietary logic.
   - [Appendix E](methodology/ACE-METH-001/1.0/appendix_E.md) (coming soon, WIP)
 
 ### Additional Standards
-- [ACE-Certificate-Schema.md](ACE-Certificate-Schema.md) (coming soon, WIP)
+The ACE Protocol is maintained in a separate repository:
+
+https://github.com/ACE-Foundation/ace-protocol
+
+It defines the canonical, implementation‑neutral data specification for ACE‑CERT, including:
+
+- the ACE‑CERT JSON schema  
+- field definitions and SI units  
+- validation and integrity requirements  
+- hash‑binding rules  
+- protocol versioning  
+
+ACE Foundation references the ACE Protocol but does not include it.  
+The protocol is a standalone, constitutional specification.
 
 ### Research
 #### 01 – Klimatklivet
