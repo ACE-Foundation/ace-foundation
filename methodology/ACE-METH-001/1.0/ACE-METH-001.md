@@ -44,20 +44,25 @@ G and O contain none.
 ## 4. Mineral Capital (M)
 
 ### 4.1 Definition
-M contains only mineral N capital. 
-It is expressed through the N-Income Statement.
+M is the **liquidity layer** of the nitrogen system, expressed as mineral N.  
+M contains no organic N and no physical capital.  
+It is represented through the N‑Income Statement.
 
-### 4.2 N-Income Statement
-Tracks:
-- measured mineral N 
-- inflows from B (mineralization) 
-- inflows from T (fixation, additions) 
-- deposition 
-- plant uptake 
-- losses 
-- statistical error 
+---
 
-Losses depend on GOeff, which is derived from G and O and modified by T.
+### 4.2 N‑Income Statement
+The N‑Income Statement tracks all **liquidity flows** of mineral N:
+
+- measured mineral N  
+- inflows from B (mineralization)  
+- inflows from T (fixation, additions)  
+- atmospheric deposition  
+- plant uptake  
+- losses  
+- statistical error  
+
+Losses depend on **GOeff**, derived from G and O and modified by T.
+
 
 ---
 
