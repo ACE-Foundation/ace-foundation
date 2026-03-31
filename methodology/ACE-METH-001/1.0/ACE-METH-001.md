@@ -109,7 +109,7 @@ C does **not** store capital.
 C represents climate effects arising from:
 
 - **geological permanence**, via CCS → *(C represents G‑input)*  
-- **biological shifts**, via regenerative flows → *(C represents O‑change)*  
+- **biological shifts**, via regenerative flows → *(C represents B- or O‑change)*  
 - **technology expressed economically**, via E‑flows → *(E → G → O → B)*  
   *(e.g., DAC, pyrolysis, biomass systems)*
 
