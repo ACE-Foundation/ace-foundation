@@ -56,11 +56,25 @@ It defines the canonical, implementation‑neutral data specification for ACE‑
 ACE Foundation references the ACE Protocol but does not include it.  
 The protocol is a standalone, constitutional specification.
 
-### Research
-#### 01 – Klimatklivet
-- [analysis.md](research/use-cases/01-Klimatklivet/analysis.md)
-- [Analysis2.md](research/use-cases/02-Comparative_Analysis_of_Climate_Policy_Evaluation_Models/Analysis2.md)
-- (coming soon, WIP)
+### Research by ACE Renaissance
+https://github.com/ACE-Foundation/ace-renaissance
+
+ACE Renaissance develops analytical frameworks for climate policy, industrial transition, and bio‑based systems. Each use case represents an independent analysis, while together they form a coherent methodology for evaluating climate impact, system effects, and policy design.
+
+01. Klimatklivet  
+Assessment of investment support using ACE‑CERT Baseline and Regenerative to quantify emission reductions and system‑level effects.
+
+02. Industriklivet  
+Application of ACE‑CERT Industry to evaluate industrial decarbonization projects, cost efficiency, and long‑term climate impact — in combination with the analytical structure established in Use Case 01.
+
+03. Biomass Limit  
+System analysis of biomass availability, competition, physical constraints, and policy implications — grounded in the fundamental limits set by photosynthesis and land area.
+
+04. ACE‑CERT  
+Use‑case‑specific application of the ACE‑CERT methodology to test, validate, and compare certification logics — providing a unified analytical solution for Use Cases 01–03.
+
+05. Klimatpolitiska Rådet  
+Analytical framework aligned with the Swedish Climate Policy Council’s criteria for target fulfilment, policy effectiveness, and system robustness — with ACE providing the quantitative assessment that the Council itself does not perform.)
 
 ---
 ## Ledger and Event Domains
