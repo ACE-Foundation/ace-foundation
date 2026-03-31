@@ -91,9 +91,9 @@ E captures:
 
 ---
 
-# 7. Climate Representation (C)
+## 7. Climate Representation (C)
 
-## 7.1 Definition
+### 7.1 Definition
 C is a **representation class**, not a capital class.  
 C expresses climate effects in **CO₂e** using:
 
@@ -105,7 +105,7 @@ C does **not** store capital.
 
 ---
 
-## 7.2 Scope of Representation
+### 7.2 Scope of Representation
 C represents climate effects arising from:
 
 - **geological permanence**, via CCS → *(C represents G‑input)*  
@@ -118,7 +118,7 @@ C does **not** store B, M, T, or E.
 
 ---
 
-## 7.3 Representation Logic
+### 7.3 Representation Logic
 C is a **pure representation layer**:
 
 - CCS is a physical process in **G**; C represents its permanence.  
