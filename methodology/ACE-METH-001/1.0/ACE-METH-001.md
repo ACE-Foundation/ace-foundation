@@ -91,18 +91,46 @@ E captures:
 
 ---
 
-## 7. Climate Representation (C)
+# 7. Climate Representation (C)
 
-### 7.1 Definition
-C is a representation class, not a capital class. 
-It expresses flows in CO2e using:
-- CN ratios 
-- 44/12 conversion 
-- CO2e/unit values from T-tables 
+## 7.1 Definition
+C is a **representation class**, not a capital class.  
+C expresses climate effects in **CO₂e** using:
 
-C does not store capital.
+- C/N ratios  
+- 44/12 conversion  
+- CO₂e/unit values from T‑tables  
+
+C does **not** store capital.
 
 ---
+
+## 7.2 Scope of Representation
+C represents climate effects arising from:
+
+- **geological permanence**, via CCS → *(C represents G‑input)*  
+- **biological shifts**, via regenerative flows → *(C represents O‑change)*  
+- **technology expressed economically**, via E‑flows → *(E → G → O → B)*  
+  *(e.g., DAC, pyrolysis, biomass systems)*
+
+C represents **only CO₂e flows**.  
+C does **not** store B, M, T, or E.
+
+---
+
+## 7.3 Representation Logic
+C is a **pure representation layer**:
+
+- CCS is a physical process in **G**; C represents its permanence.  
+- Regenerative systems shift material between **B** and **O**; C represents the climate effect.  
+- DAC/pyrolysis/energy enter as **E‑flows** affecting G/O/B; C represents their CO₂e impact.
+
+C is:
+
+- weightless  
+- capital‑free  
+- non‑material  
+- a representation layer only
 
 ## 8. Measurement and Overrides
 Measured values override theoretical values where applicable (e.g., mineral N tests). 
