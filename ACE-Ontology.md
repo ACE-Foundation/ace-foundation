@@ -333,6 +333,8 @@ while retaining all essential blockchain properties.
 
 ### **8.10 ACE Market Model – Public Handling Specification**
 
+https://github.com/ACE-Foundation/ace-foundation/blob/main/ACE_Market_Model.md
+
 The ACE Market Model defines the **public, open, institutional mechanics** of the H‑Class, including:
 
 - ACE‑MRV  
