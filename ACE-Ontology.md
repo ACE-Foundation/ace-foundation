@@ -110,41 +110,50 @@ implementing or licensing entity.
 
 ---
 
-# **8. GOMBTECH – The Complete Universe Layer**
+Below is a **fully rewritten, upgraded, ACE‑grade version of Sections 8–8.10**, in clean, authoritative English, aligned with the new `.jsonl` permissioned‑blockchain ledger model and the clarified event ontology.
 
-GOMBTECH defines the full universe of ACE:  
-- **GOBMTEC** as the substrate and capital classes  
-- **H‑Class** as the securitization and institutional handling of the C‑Class  
-
-GOMBTECH is the total ontological space in which ACE operates.  
-Nothing exists outside it.  
-Nothing inside it may contradict it.
+This is written in true **ACE‑Tech style**:  
+precise, constitutional, minimal, and institutionally rigorous.
 
 ---
 
-## **8.1 GOBMTEC – Substrate and Capital Classes (Transferred from Originator)**
+## **8. GOMBTECH – The Complete Universe Layer**
 
-GOBMTEC defines the constitutional substrate and capital classes:
+GOMBTECH defines the **total ontological universe** in which ACE operates.  
+It contains:
+
+- **GOBMTEC** – the constitutional substrate and capital classes  
+- **H‑Class** – the securitization and institutional handling of the C‑Class  
+
+Nothing exists outside GOMBTECH.  
+Nothing inside it may contradict it.  
+It is the **complete and closed ontology** of ACE.
+
+---
+
+### **8.1 GOBMTEC – Substrate and Capital Classes (Transferred from Originator)**
+
+GOBMTEC defines the **constitutional substrate** of ACE and the **capital classes** that represent the physical, biological, technical, and economic foundations of the system:
 
 - **G** – Geological substrate  
 - **O** – Organic substrate (non‑nitrogen)  
 - **B** – Biological capital  
-- **M** – Mineral N capital  
+- **M** – Mineral nitrogen capital  
 - **T** – Technical capital  
-- **E** – Economic/governance capital  
+- **E** – Economic and governance capital  
 - **C** – Climate representation class  
 
-GOBMTEC is **transferred from the originator** to the ACE Foundation for permanent custodianship.  
-It is immutable and forms the constitutional ontology of ACE.
+GOBMTEC is **immutable** and is transferred from the originator to the ACE Foundation for **permanent custodianship**.  
+It forms the **constitutional ontology** of ACE and cannot be altered.
 
 ---
 
-## **8.2 H‑Class – Institutional Handling Layer (Retained by Originator)**
+### **8.2 H‑Class – Institutional Handling Layer (Retained by Originator)**
 
-H‑Class is the **institutional and operational layer** of ACE.  
-It is part of the ontology but **its implementation is proprietary** and remains under the exclusive ownership of the originator unless explicitly licensed.
+H‑Class is the **institutional, operational, and securitization layer** of ACE.  
+It defines how the C‑Class is represented, transacted, and institutionally maintained.
 
-H‑Class performs the **securitization and institutional representation of the C‑Class**, including:
+H‑Class includes:
 
 - identity  
 - accounts  
@@ -154,138 +163,192 @@ H‑Class performs the **securitization and institutional representation of the 
 - settlement  
 - ledger  
 - MRV integration  
-- ACE Engine execution  
+- ACE‑Engine execution  
 
-H‑Class is **never transferred** to ACE Foundation.
-
----
-
-## **8.3 Ownership / Permissions Layer**
-
-```
-Identity → Account → Balances
-```
-
-### **Identity Domain = f(Ledger)**  
-- Identities arise when the ledger records an entity for the first time.  
-- Identity is an institutional truth derived from ledger events.  
-- Identities cannot be deleted, only updated through new events.
-
-### **Account Domain = f(Ledger)**  
-- Accounts are projections of ledger history.  
-- An account exists only if referenced by ledger events.  
-- Accounts are not tables; they are functions of events.
-
-### **Balances Domain = f(Ledger Events)**  
-- Balances are never stored.  
-- They are deterministically derived from ledger events.  
-- This ensures perfect auditability and institutional consistency.
+H‑Class is part of the ontology but **its implementation is proprietary** and remains under the exclusive ownership of the originator unless explicitly licensed.  
+It is **never** transferred to the ACE Foundation.
 
 ---
 
-## **8.4 Event / Ledger Layer**
+### **8.3 Ownership & Permissions Layer**
 
-```
-MRV → Transaction → Clearing → Settlement → Ledger
-Balances = f(Ledger events)
-```
+ACE uses a strictly derived ownership model:
 
-This layer defines the operational logic of ACE Tech.
+**Identity Domain = f(ledger)**  
+Identities arise the first time an entity appears in the ledger.  
+Identity is an **institutional truth**, derived from events.  
+Identities cannot be deleted—only updated through new events.
+
+**Account Domain = f(ledger)**  
+Accounts are **projections of ledger history**.  
+An account exists only if referenced by ledger events.  
+Accounts are not stored tables; they are **functions of events**.
+
+**Balance Domain = f(ledger events)**  
+Balances are **never stored**.  
+They are deterministically derived from ledger events.  
+This ensures:
+
+- perfect auditability  
+- institutional consistency  
+- irreversibility  
 
 ---
 
-## **8.5 MRV Domain = f(Measurement, Reporting, Verification)**
+### **8.4 Event & Ledger Layer**
 
-The MRV domain produces verified evidence:
+The operational flow of ACE‑Tech is:
+
+**MRV → Transaction → Clearing → Settlement → Ledger**
+
+Balances are always:
+
+**Balances = f(ledger events)**
+
+This layer defines the **execution logic** of ACE‑Tech.
+
+---
+
+### **8.5 MRV Domain – Measurement, Reporting, Verification**
+
+The MRV domain produces **verified evidence**:
 
 - measurements  
 - reports  
-- signatures  
+- verifier signatures  
 - hashed proofs  
 - references (IPFS, filesystem, database)  
 
-MRV is the **evidence domain** feeding CREATION.
+MRV is the **evidence substrate** for CREATION‑TX.  
+It is provided to the ACE‑Engine as structured input (`userinput.json`).
 
 ---
 
-## **8.6 Transaction Domain = f(MRV, GOBMTEC)**
+## **8.6 Transaction Domain – Event Logic**
 
-### **1. CREATION**  
-- Generates a Signed Created Certificate  
-- Represents negative emissions (typically annual)  
-- Must be based on MRV + ACE Engine logic
+ACE‑Tech uses **four event types**, three of which are transaction events (‑TX):
 
-### **2. TRADING**  
-- Transfer → Clearing → Settlement → Ledger  
-- Unlimited buying  
-- Selling restricted to owned certificates  
-- Pure ledger logic
+**1. CREATION‑TX (transaction event)**  
+- Based on MRV + ACE‑Engine execution  
+- Produces a created certificate  
+- Written to the ledger  
+- Always followed by a REGISTRATION event  
 
-### **3. REDEMPTION**  
-- Signed Certificate Retirement  
+**2. TRADING‑TX (transaction event)**  
+- Transfer of ownership  
+- Requires clearing → settlement  
+- Written to the ledger after settlement  
+- Unlimited buying; selling restricted to owned certificates  
+
+**3. REDEMPTION‑TX (transaction event)**  
+- Certificate retirement  
 - Represents positive emissions + purchased certificates  
-- Certificate becomes permanently consumed
+- Written to the ledger  
+- Always followed by a REGISTRATION event  
+
+**4. REGISTRATION (institutional event)**  
+- Updates identity, rating, permissions, accounts, balances  
+- Never goes through clearing or settlement  
+- The institutional root event of ACE  
 
 ---
 
-## **8.7 Clearing Domain = f(Transaction)**
+### **8.7 Clearing Domain – f(Transaction)**
 
-### **Validation**  
-- Ownership  
-- Identity validity  
-- Account existence  
-- Certificate availability  
-- Signature correctness  
+Clearing applies **only** to TRADING‑TX.
 
-### **Matching**  
-- Bilateral or algorithmic
+It performs:
 
-### **Preparation**  
-- Creates a cleared transaction  
-- Locks relevant positions until settlement
+- identity validation  
+- ownership verification  
+- account existence checks  
+- certificate availability  
+- signature correctness  
+- bilateral or algorithmic matching  
+- position locking  
 
----
-
-## **8.8 Settlement Domain = f(Cleared Transaction)**
-
-### **Execution**  
-- Debit seller  
-- Credit buyer  
-- Update ledger  
-
-### **Irreversibility**  
-- Append‑only  
-- Permanent  
-- Ledger becomes the institutional truth
+Output: a **cleared transaction** ready for settlement.
 
 ---
 
-## **8.9 Ledger Domain – Append‑Only Event Log**
+### **8.8 Settlement Domain – f(Cleared Transaction)**
 
-The ledger is:
+Settlement executes the cleared transaction:
 
-- immutable  
-- append‑only  
-- deterministic  
-- the institutional truth  
-- the source of all derived domains  
+- debit seller  
+- credit buyer  
+- write TRADING‑TX to the ledger  
+- finalize ownership  
+- ensure irreversibility  
 
-The ledger contains:
-
-- all transactions  
-- all clearing results  
-- all settlement events  
-- all identity events  
-- all account events  
-- all creation and redemption events  
+Once written, the ledger entry becomes part of the **institutional truth**.
 
 ---
 
-## **8.10 ACE Market Model – Public Handling Specification**
-The ACE Market Model describes the public, open, institutional mechanics of the H‑Class.
-It defines how ACE‑MRV, ACE‑Registration, ACE Climate Rating, ACE‑CERT, invoice‑anchored deduction, CRCF integration, and year‑to‑year grade propagation operate within the ACE system.
+### **8.9 Ledger Domain – Append‑Only JSONL Blockchain**
 
-The Market Model is part of the H‑Class ontology, but not part of the proprietary implementation.
-It is published openly to ensure transparency, auditability, and regulatory compatibility.
+The ACE ledger is implemented as an **append‑only hash‑chained event log** in `.jsonl` format:
 
-(**LINK**)
+- **one line = one block/event**  
+- each block contains:  
+  - `prev_hash`  
+  - `event_type`  
+  - `timestamp`  
+  - `payload`  
+  - `hash`  
+
+This structure provides:
+
+- immutability  
+- determinism  
+- perfect auditability  
+- institutional truth  
+- compatibility with Excel, Python, and future distributed systems  
+
+**A permissioned blockchain without PoW**
+
+ACE does **not** require Proof‑of‑Work or Proof‑of‑Stake because:
+
+- only **ACE‑Engine** has write permission  
+- the system is **institutional and permissioned**, not anonymous  
+- there is no need for decentralized consensus  
+- all participants trust the institutional authority  
+
+Thus:
+
+> **ACE‑ledger is a blockchain in every functional sense—  
+> except it does not require distributed consensus.**
+
+This makes it:
+
+- faster  
+- cheaper  
+- regulator‑friendly  
+- easier to audit  
+- easier to implement  
+
+while retaining all essential blockchain properties.
+
+---
+
+### **8.10 ACE Market Model – Public Handling Specification**
+
+The ACE Market Model defines the **public, open, institutional mechanics** of the H‑Class, including:
+
+- ACE‑MRV  
+- ACE‑Registration  
+- ACE Climate Rating  
+- ACE‑CERT  
+- invoice‑anchored deduction  
+- CRCF integration  
+- year‑to‑year rating propagation  
+
+The Market Model is **publicly published** to ensure:
+
+- transparency  
+- auditability  
+- regulatory compatibility  
+
+It is part of the H‑Class ontology but **not** part of the proprietary implementation.
+
+---
