@@ -287,7 +287,7 @@ Once written, the ledger entry becomes part of the **institutional truth**.
 
 ### **8.9 Ledger Domain – Append‑Only JSONL Blockchain**
 
-The ACE ledger is implemented as an **append‑only hash‑chained event log** in `.jsonl` format:
+The ACE ledger is an **append‑only hash‑chained event log** in `.jsonl` format:
 
 - **one line = one block/event**  
 - each block contains:  
@@ -297,22 +297,15 @@ The ACE ledger is implemented as an **append‑only hash‑chained event log** i
   - `payload`  
   - `hash`  
 
-This structure provides:
+This structure provides **immutability, determinism, perfect auditability, institutional truth, and compatibility** with Excel, Python, and future distributed systems. 
 
-- immutability  
-- determinism  
-- perfect auditability  
-- institutional truth  
-- compatibility with Excel, Python, and future distributed systems  
+**Permissioned blockchain (no decentralized consensus required)**
 
-**A permissioned blockchain without PoW**
-
-ACE does **not** require Proof‑of‑Work or Proof‑of‑Stake because:
+ACE does not require decentralized consensus because:se:
 
 - only **ACE‑Engine** has write permission  
 - the system is **institutional and permissioned**, not anonymous  
-- there is no need for decentralized consensus  
-- all participants trust the institutional authority  
+- trust is anchored in the institutional authority   
 
 Thus:
 
@@ -321,11 +314,8 @@ Thus:
 
 This makes it:
 
-- faster  
-- cheaper  
-- regulator‑friendly  
-- easier to audit  
-- easier to implement  
+- faster and regulator‑friendly  
+- easier to audit and implement  
 
 while retaining all essential blockchain properties.
 
