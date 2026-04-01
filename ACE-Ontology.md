@@ -110,13 +110,6 @@ implementing or licensing entity.
 
 ---
 
-Below is a **fully rewritten, upgraded, ACE‑grade version of Sections 8–8.10**, in clean, authoritative English, aligned with the new `.jsonl` permissioned‑blockchain ledger model and the clarified event ontology.
-
-This is written in true **ACE‑Tech style**:  
-precise, constitutional, minimal, and institutionally rigorous.
-
----
-
 ## **8. GOMBTECH – The Complete Universe Layer**
 
 GOMBTECH defines the **total ontological universe** in which ACE operates.  
