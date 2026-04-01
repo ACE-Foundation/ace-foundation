@@ -174,17 +174,17 @@ It is **never** transferred to the ACE Foundation.
 
 ACE uses a strictly derived ownership model:
 
-**Identity Domain = f(ledger)**  
+#### **Identity Domain = f(ledger)**  
 Identities arise the first time an entity appears in the ledger.  
 Identity is an **institutional truth**, derived from events.  
 Identities cannot be deleted—only updated through new events.
 
-**Account Domain = f(ledger)**  
+#### **Account Domain = f(ledger)**  
 Accounts are **projections of ledger history**.  
 An account exists only if referenced by ledger events.  
 Accounts are not stored tables; they are **functions of events**.
 
-**Balance Domain = f(ledger events)**  
+#### **Balance Domain = f(ledger events)**  
 Balances are **never stored**.  
 They are deterministically derived from ledger events.  
 This ensures:
@@ -228,25 +228,25 @@ It is provided to the ACE‑Engine as structured input (`userinput.json`).
 
 ACE‑Tech uses **four event types**, three of which are transaction events (‑TX):
 
-**1. CREATION‑TX (transaction event)**  
+#### **1. CREATION‑TX (transaction event)**  
 - Based on MRV + ACE‑Engine execution  
 - Produces a created certificate  
 - Written to the ledger  
 - Always followed by a REGISTRATION event  
 
-**2. TRADING‑TX (transaction event)**  
+#### **2. TRADING‑TX (transaction event)**  
 - Transfer of ownership  
 - Requires clearing → settlement  
 - Written to the ledger after settlement  
 - Unlimited buying; selling restricted to owned certificates  
 
-**3. REDEMPTION‑TX (transaction event)**  
+#### **3. REDEMPTION‑TX (transaction event)**  
 - Certificate retirement  
 - Represents positive emissions + purchased certificates  
 - Written to the ledger  
 - Always followed by a REGISTRATION event  
 
-**4. REGISTRATION (institutional event)**  
+#### **4. REGISTRATION (institutional event)**  
 - Updates identity, rating, permissions, accounts, balances  
 - Never goes through clearing or settlement  
 - The institutional root event of ACE  
@@ -299,7 +299,7 @@ The ACE ledger is an **append‑only hash‑chained event log** in `.jsonl` form
 
 This structure provides **immutability, determinism, perfect auditability, institutional truth, and compatibility** with Excel, Python, and future distributed systems. 
 
-**Permissioned blockchain (no decentralized consensus required)**
+#### **Permissioned blockchain (no decentralized consensus required)**
 
 ACE does not require decentralized consensus because:se:
 
