@@ -14,10 +14,10 @@ The purpose of this repository is to provide a stable, transparent, and openly a
 
 - ACE Ontology  
 - ACE Metadata Standard  
-- ACE Methodology (ACE‑METH‑001)  
-- Certificate and retirement schema  
-- Governance and roles  
-- Supporting documentation for verification, settlement, and fungibility  
+- ACE Methodology (ACE‑METH‑001)
+- ACE Ledger Model
+- ACE Event Model
+- ACE Ledger Certificate Model
 
 This repository does **not** contain code, algorithms, or proprietary logic.
 
@@ -25,14 +25,15 @@ This repository does **not** contain code, algorithms, or proprietary logic.
 
 ## Repository Structure
 
-### Core Documents
-- [0. ACE-Whitepaper-v0.1.md](ACE-Whitepaper-v0.1.md)
-- [1. ACE-Ontology.md](ACE-Ontology.md)
-- [2. ACE-Metadata-Standard.md](ACE-Metadata-Standard.md)
-- [3. ACE_Market_Model.md](ACE_Market_Model.md)
-- [4. ACE_Regulatory_Model.md](ACE_Regulatory_Model.md)
+### 1. Core Documents (Start Here)
+- [ACE-Whitepaper-v0.1.md](ACE-Whitepaper-v0.1.md)
+- [ACE-Ontology.md](ACE-Ontology.md)
+- [ACE-Metadata-Standard.md](ACE-Metadata-Standard.md)
+- [ACE_Market_Model.md](ACE_Market_Model.md)
+- [ACE_Regulatory_Model.md](ACE_Regulatory_Model.md)
 
-### Methodology
+### 2. Domain Standards (MRV → Method → Market → Regulation)
+- [ACE-MRV.md](ACE-MRV.md)
 - [ACE-METH-001 (v1.0)](methodology/ACE-METH-001/1.0/ACE-METH-001.md)
   - [Appendix A](methodology/ACE-METH-001/1.0/appendix_A.md) (coming soon, WIP)
   - [Appendix B](methodology/ACE-METH-001/1.0/appendix_B.md) (coming soon, WIP)
@@ -40,23 +41,18 @@ This repository does **not** contain code, algorithms, or proprietary logic.
   - [Appendix D](methodology/ACE-METH-001/1.0/appendix_D.md) (coming soon, WIP)
   - [Appendix E](methodology/ACE-METH-001/1.0/appendix_E.md) (coming soon, WIP)
 
-### Additional Standards
-The ACE Protocol is maintained in a separate repository:
 
-https://github.com/ACE-Foundation/ace-protocol
+### 3. Ledger Standards (Institutional Blockchain Layer)
+These documents define the institutional ledger that governs certificate creation, transfer, retirement, and annual book‑closing:
+- [ACE EVENT.md](ACE-EVENT.md)
+  Defines CREATION‑TX, TRADING‑TX, REDEMPTION‑TX, and REGISTRATION.
+- [ACE LEDGER.md](ACE-LEDGER.md)
+  Defines the append‑only, hash‑chained, deterministic ledger model.
+- [ACE_Ledger_Certificate.md](ACE_Ledger_Certificate.md)
+  Defines the deterministic, cryptographically anchored certificate model.
+Together, these form the ACE Core Ledger Protocol.
 
-It defines the canonical, implementation‑neutral data specification for ACE‑CERT, including:
-
-- the ACE‑CERT JSON schema  
-- field definitions and SI units  
-- validation and integrity requirements  
-- hash‑binding rules  
-- protocol versioning  
-
-ACE Foundation references the ACE Protocol but does not include it.  
-The protocol is a standalone, constitutional specification.
-
-### Research by ACE Renaissance
+### 4. Research by ACE Renaissance
 https://github.com/ACE-Foundation/ace-renaissance
 
 ACE Renaissance develops analytical frameworks for climate policy, industrial transition, and bio‑based systems. Each use case represents an independent analysis, while together they form a coherent methodology for evaluating climate impact, system effects, and policy design.
@@ -74,7 +70,7 @@ System analysis of biomass availability, competition, physical constraints, and 
 Use‑case‑specific application of the ACE‑CERT methodology to test, validate, and compare certification logics — providing a unified analytical solution for Use Cases 01–03.
 
 05. Klimatpolitiska Rådet  
-Analytical framework aligned with the Swedish Climate Policy Council’s criteria for target fulfilment, policy effectiveness, and system robustness — with ACE providing the quantitative assessment that the Council itself does not perform.)
+Analytical framework aligned with the Swedish Climate Policy Council’s criteria for target fulfilment, policy effectiveness, and system robustness — with ACE providing the quantitative assessment that the Council itself does not perform.
 
 ---
 ## Ledger and Event Domains
@@ -96,7 +92,6 @@ The ledger is:
 
 Balances are **never stored**.  
 They are deterministically derived from ledger events.  
-This ensures perfect auditability, institutional consistency, and constitutional integrity.
 
 ---
 
@@ -107,18 +102,20 @@ This repository contains:
 - **the ACE Ontology (immutable)**  
 - **constitutional documents**  
 - **governance structure**  
-- **public reference materials**
+- **methodology and domain standards**
+- **ledger and event standards**
 
 This repository does **not** contain:
 
-- H‑Class implementation  
-- ACE Engine code  
+- ACE Engine implementation  
+- H-Class logic
 - operational modules  
 - any executable logic  
 
 These remain **proprietary** and may only be used under explicit license from the originator.
 
 ---
+
 ## Implementation Neutrality
 
 ACE defines structure, not code.  
@@ -149,8 +146,6 @@ The originator retains exclusive rights to implement ACE‑compliant systems and
 ---
 
 ## Versioning
-
-Documents follow semantic versioning where applicable.
 
 Methodology versions are stored under:
 
@@ -187,7 +182,7 @@ The ontology is:
 The ontology is public and immutable.  
 The implementation (H‑Class) is private and licensable.
 
-For full details, see:  
+See:
 - [ACE_IP_Statement.md](ACE_IP_Statement.md)
 - [CONTRIBUTIONS.md](CONTRIBUTIONS.md)
 
