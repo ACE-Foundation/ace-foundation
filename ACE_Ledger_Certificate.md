@@ -1,71 +1,149 @@
-# **ACE Certificate — Technical Interpretation**
+# **ACE_Ledger_Certificate v1.0.0**  
+Technical Specification for ACE Certificates
 
-## **1. A Complete, Deterministic Execution**  
-An ACE Certificate represents the full, self‑contained output of a single ACE Engine execution for a specific customer, year, and scenario.  
-It includes:
+## **1. Purpose and Scope**
 
-- the exact input  
+An ACE Certificate is the **deterministic, cryptographically anchored output** of a single ACE‑ENGINE execution for a specific entity, reporting year, and scenario.  
+It represents the **institutional ledger state** for that reporting period and provides a complete, reproducible record of:
+
+- the input  
 - the domain profile  
-- the soil parameters  
-- the internal nitrogen and carbon state  
+- the soil and biomass parameters  
+- the nitrogen and carbon state  
 - the pool transitions  
-- the final ledger state  
-- the ACE version and method  
+- the fossil emissions  
+- the net climate effect  
+- the ACE method and version  
+- the calculation hash anchors  
 
-Nothing is missing.  
-Any party with access to the ACE Engine can reproduce the result bit‑for‑bit.
+The certificate is **not** a mutable object.  
+It is a **portable, verifiable, institutional record** derived from the ACE ledger.
 
 ---
 
-## **2. A Cryptographically Anchored Ledger State**  
-The certificate contains four SHA‑256 hash anchors binding:
+## **2. Certificate as Deterministic Execution Output**
+
+An ACE Certificate contains the **full, self‑contained execution trace** of ACE‑ENGINE:
+
+- exact MRV input  
+- domain profile  
+- soil parameters  
+- nitrogen and carbon pools  
+- internal state transitions  
+- fossil emissions  
+- net CO₂e result  
+- ACE‑GRADE (from REGISTRATION)  
+- ACE method version  
+- calculation metadata  
+
+Nothing is omitted.  
+Any party with access to ACE‑ENGINE can reproduce the certificate **bit‑for‑bit**.
+
+This ensures:
+
+- determinism  
+- transparency  
+- auditability  
+- scientific reproducibility  
+
+---
+
+## **3. Cryptographic Anchoring**
+
+Each certificate contains four SHA‑256 hash anchors:
+
+1. **Input Hash**  
+   Hash of the MRV input and metadata.
+
+2. **Scenario Hash**  
+   Hash of the domain profile and scenario configuration.
+
+3. **Calculation Hash**  
+   Hash of the full ACE‑ENGINE execution trace.
+
+4. **Method Hash**  
+   Hash of the ACE method version and methodology.
+
+These anchors bind:
 
 - the input  
 - the scenario  
-- the calculation (the execution itself)  
-- the method (ACE version + methodology)  
+- the execution  
+- the method  
 
-These anchors ensure:
-
-- integrity  
-- immutability  
-- auditability  
-- reproducibility  
+…into a single immutable institutional record.
 
 This is not a blockchain.  
-It is an **institutional ledger hash layer** designed for verifiable, deterministic state.
+It is an **institutional hash‑anchored ledger artifact** designed for verifiable, deterministic state.
 
 ---
 
-## **3. A Full Accounting of Biophysical Flows**  
-The certificate contains the complete nitrogen and carbon bookkeeping for the year, including:
+## **4. Certificate as Ledger State**
+
+The ACE Certificate represents the **ledger state** for the reporting year:
 
 - nitrogen fixation  
 - nitrogen losses  
 - biomass uptake  
-- pool changes  
-- CO₂e storage  
+- soil carbon pool transitions  
 - fossil emissions  
 - net climate effect  
+- ACE‑GRADE  
+- certificate creation or retirement flags  
 
-This constitutes the **ledger state** for the reporting period.
+This state is:
+
+- complete  
+- internally consistent  
+- cryptographically anchored  
+- reproducible  
+- independent of external databases  
+
+The certificate is a **snapshot of institutional truth**, not a mutable object.
 
 ---
 
-## **4. Proof That ACE Is Not ETL**  
-The certificate demonstrates the ACE execution model:
+## **5. Certificate and Event Integration**
+
+The certificate is linked to the ACE ledger through:
+
+- **CREATION‑TX** (if negative emissions)  
+- **REDEMPTION‑TX** (if positive emissions must be matched)  
+- **REGISTRATION** (annual state update)  
+
+The certificate is **not** stored directly in the ledger.  
+Instead, it is **reconstructed deterministically** from:
+
+- ACE‑ENGINE execution  
+- CREATION‑TX or REDEMPTION‑TX  
+- REGISTRATION state  
+
+This ensures:
+
+- no duplication  
+- no mutable objects  
+- no divergence between ledger and certificate  
+
+---
+
+## **6. Proof That ACE Is Not ETL**
+
+The certificate demonstrates that ACE is a **ledger engine**, not a transformation pipeline:
 
 - the input remains untouched  
-- the state is produced deterministically  
-- the engine does not mutate any database  
+- the engine produces deterministic state  
+- no database is mutated  
 - the result is cryptographically anchored  
 - the entire execution is certifiable  
+- the certificate is a portable institutional artifact  
 
-ACE is a **ledger engine**, not a transformation pipeline.
+ACE is not ETL.  
+ACE is **deterministic execution → ledger anchoring → certificate reconstruction**.
 
 ---
 
-## **5. A Portable, Verifiable, Future‑Proof Record**  
+## **7. Certificate Portability and Verification**
+
 An ACE Certificate is designed to be:
 
 - stored  
@@ -73,7 +151,32 @@ An ACE Certificate is designed to be:
 - audited  
 - re‑executed  
 - independently verified  
+- compared across years  
+- used in regulatory reporting  
+- used in certificate creation or retirement  
 
-It is a **self‑contained institutional record**, not a data dump.
+It is a **future‑proof institutional record**, not a data dump.
+
+---
+
+## **8. Summary**
+
+An ACE Certificate is:
+
+- the deterministic output of ACE‑ENGINE  
+- cryptographically anchored  
+- institutionally valid  
+- reproducible  
+- portable  
+- auditable  
+- ledger‑consistent  
+
+It represents the **complete, verifiable climate ledger state** for a reporting year and forms the foundation for:
+
+- CREATION‑TX  
+- REDEMPTION‑TX  
+- REGISTRATION  
+- ACE‑GRADE  
+- long‑term institutional trust  
 
 ---
