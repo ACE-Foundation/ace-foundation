@@ -77,6 +77,10 @@ All MRV input must be representable as a single JSON object:
 - `method_version` (e.g., "ACE‑METH‑001 v1.0.0")  
 - `geolocation` (min. field/facility resolution)
 
+Note: MRV input describes real‑world emissions and removals.  
+It must not include certificate ownership or ACE‑CERT references.  
+Certificate ownership is handled exclusively through REGISTRATION events.
+
 ### 3.2 Activity Data
 
 **Biological CDR examples:**
